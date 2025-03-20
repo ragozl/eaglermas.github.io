@@ -7,7 +7,7 @@ function sendwebhook(jsmsgusername, jsmessagecontent) {
       request.setRequestHeader('Content-type', 'application/json');
 
       const params = {
-		username: jsmsgusername,
+		//username: jsmsgusername,
 		content: jsmessagecontent
       }
 
